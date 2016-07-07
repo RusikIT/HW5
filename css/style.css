@@ -82,7 +82,7 @@
 
 
 .inpform{
-
+	width: 60%;
 	color: white;
 	background-color: black;
 
@@ -90,13 +90,14 @@
 }
 
 .newbut {
-    background: linear-gradient(to top, #3b5699, #31447c);
+    width: 60%;
+	background: linear-gradient(to top, #3b5699, #31447c);
     padding: 10px;
     border: 1px solid #333;
 	border-radius: 5px;
 	color: white;
-	font-weight: bold;
-	opacity: 1; Значение прозрачности
+	font-weight:bold;
+
 }
 
 .newbut2 {
@@ -120,14 +121,12 @@
     background-color: #1b5288;
 	border:#35a5e5 1px solid;
 	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-	-webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-	-moz-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+
 }
  
+
  input {
 	transition: all 0.30s ease-in-out;
-	-webkit-transition: all 0.30s ease-in-out;
-	-moz-transition: all 0.30s ease-in-out;
 	outline:none;
 	border: 1px solid #cccccc; //цвет рамки
     border-radius: 3px; //закругление углов (общее)
