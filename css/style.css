@@ -33,6 +33,7 @@
 }
 .menu .active {
     border-left: 1px solid white;
+	color: white;
 }
 
 .menu .active2 {
@@ -54,12 +55,12 @@
 	background: url(../img/fon.jpg); /* Параметры фона */
     background-size: cover; /* Фон занимает всю доступную площадь */
 	margin: 0px; /* Убираем отступы */
-    height: 800px; /* Высота страницы */
+    height: 700px; /* Высота страницы */
 
 }
 
 .trblock {
-    width: 350px;
+    width: 400;
     height: 520px;
     position: absolute;
     top: 150px;
@@ -82,7 +83,7 @@
 
 
 .inpform{
-	width: 60%;
+	width: 276px;
 	color: white;
 	background-color: black;
 
@@ -131,4 +132,15 @@
 	border: 1px solid #cccccc; //цвет рамки
     border-radius: 3px; //закругление углов (общее)
 	width: 145px;
+}
+
+.flag {
+    vertical-align: middle;
+    margin-right: 2px;
+}
+
+.fb {
+    width: 276px;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
