@@ -83,12 +83,9 @@
 
 .inpform{
 
- /*    position: absolute;
-    top: 15%;
-    left: 15%;
-    margin: auto; */
 	color: white;
 	background-color: black;
+
 
 }
 
@@ -119,4 +116,20 @@
  
  }
  
+ input:focus { 
+    background-color: #1b5288;
+	border:#35a5e5 1px solid;
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	-webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	-moz-box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
  
+ input {
+	transition: all 0.30s ease-in-out;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	outline:none;
+	border: 1px solid #cccccc; //цвет рамки
+    border-radius: 3px; //закругление углов (общее)
+	width: 145px;
+}
