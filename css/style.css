@@ -60,14 +60,14 @@
 }
 
 .trblock {
-    width: 400;
-    height: 520px;
     position: absolute;
+	width: 400px;
+    height: 520px;
     top: 150px;
     right: 0;
     bottom: 0;
     left: 0;
-    margin: auto;
+    margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.7);
 /* 	opacity: 0.7; /* Значение прозрачности */
  */    font-size: 18px;
